@@ -308,6 +308,45 @@
 			.divider
 				margin: 17px auto 10px auto
 
+@media (min-device-width : 375px) and (max-device-height : 812px) and (-webkit-device-pixel-ratio : 3) //iphone X
+	.title
+		font-size: 14px
+	.price
+		.active
+			width: 144px
+			height: 176px
+			.price_item_free
+				width: 150px
+				font-size: 12px
+		&_item
+			&_free
+				font-size: 11px
+			&_month
+				font-size: 12px
+	.button
+		width: 260px
+		height: 50px
+		padding-top: 15px
+
+@media (min-device-width : 390px) and (max-device-height : 844px) and (-webkit-device-pixel-ratio : 3) //iphone 14
+	.title
+		font-size: 15px
+	.price
+		margin-top: 45px
+		&_item
+			&_period
+				font-size: 18px
+			&_cost
+				font-size: 22px
+				span
+					font-size: 15px
+			&_free
+				width: 137px
+				font-size: 12px
+				padding-top: 3px
+			&_month
+				margin-top: 10px
+				font-size: 13px
 @media (min-device-width : 414px)  and (max-device-height : 736px) and (-webkit-device-pixel-ratio : 3) // iphone 8+
 	body
 		background-position-y: -50px
@@ -335,26 +374,6 @@
 			height: 45px
 			padding-top: 14px
 			margin-top: 20px
-
-@media (min-device-width : 375px) and (max-device-height : 812px) and (-webkit-device-pixel-ratio : 3) //iphone X
-	.title
-		font-size: 14px
-	.price
-		.active
-			width: 144px
-			height: 176px
-			.price_item_free
-				width: 150px
-				font-size: 12px
-		&_item
-			&_free
-				font-size: 11px
-			&_month
-				font-size: 12px
-	.button
-		width: 260px
-		height: 50px
-		padding-top: 15px
 
 @media (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3)  //11 pro
 	.title
@@ -392,24 +411,4 @@
 		font-size: 12px
 	.cancel
 		font-size: 12px
-
-@media (min-device-width : 390px) and (max-device-height : 844px) and (-webkit-device-pixel-ratio : 3) //iphone 14
-	.title
-		font-size: 15px
-	.price
-		margin-top: 45px
-		&_item
-			&_period
-				font-size: 18px
-			&_cost
-				font-size: 22px
-				span
-					font-size: 15px
-			&_free
-				width: 155px
-				font-size: 12px
-				padding-top: 3px
-			&_month
-				margin-top: 10px
-				font-size: 13px
 		
